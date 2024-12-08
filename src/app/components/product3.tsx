@@ -10,7 +10,7 @@ type CarCardProps = {
   capacity: string;
   price: number;
   discountedPrice?: number;
-  favoriteIcon: string;
+  // favoriteIcon: string;
 };
 
 export const CarCard: React.FC<CarCardProps> = ({
@@ -22,7 +22,7 @@ export const CarCard: React.FC<CarCardProps> = ({
   capacity,
   price,
   discountedPrice,
-  favoriteIcon
+  // favoriteIcon
 }) => {
   return (
     <div className="flex overflow-hidden flex-col p-6 bg-white rounded-xl min-w-[240px] w-full sm:w-[304px] max-w-sm mx-auto relative border border-gray-50">
@@ -115,7 +115,7 @@ const Product3: React.FC = () => {
       transmission: "Manual",
       capacity: "6 People",
       price: 72,
-      favoriteIcon: "/Images/heart.png" // Favorite icon with correct path
+      // favoriteIcon: "/Images/heart.png" // Favorite icon with correct path
     },
     {
       name: "New MG ZS",
@@ -125,7 +125,7 @@ const Product3: React.FC = () => {
       transmission: "Manual",
       capacity: "6 People",
       price: 80,
-      favoriteIcon: "/Images/heart.png" // Favorite icon with correct path
+      // favoriteIcon: "/Images/heart.png" // Favorite icon with correct path
     },
     {
       name: "MG ZX Excite",
@@ -135,7 +135,7 @@ const Product3: React.FC = () => {
       transmission: "Manual",
       capacity: "6 People",
       price: 74,
-      favoriteIcon: "/Images/heart.png" // Favorite icon with correct path
+      // favoriteIcon: "/Images/heart.png" // Favorite icon with correct path
     },
     {
       name: "New MG ZS",
@@ -145,7 +145,7 @@ const Product3: React.FC = () => {
       transmission: "Manual",
       capacity: "6 People",
       price: 80,
-      favoriteIcon: "/Images/heart.png" // Favorite icon with correct path
+      // favoriteIcon: "/Images/heart.png" // Favorite icon with correct path
     }
   ];
 

@@ -12,7 +12,7 @@ type CarCardProps = {
   capacity: string;
   price: number;
   discountedPrice?: number;
-  favoriteIcon: string;
+  // favoriteIcon: string;
 };
 
 export const CarCard: React.FC<CarCardProps> = ({
@@ -24,7 +24,7 @@ export const CarCard: React.FC<CarCardProps> = ({
   capacity,
   price,
   discountedPrice,
-  favoriteIcon
+  // favoriteIcon
 }) => {
   return (
     <div className="flex flex-col p-6 bg-white rounded-xl w-full sm:w-[304px] max-w-sm mx-auto relative border border-gray-50">
@@ -117,7 +117,7 @@ const Product: React.FC = () => {
       transmission: "Manual",
       capacity: "2 People",
       price: 120,
-      favoriteIcon: "/Images/heart.png"
+      // favoriteIcon: "/Images/heart.png"
     },
     {
       name: "Nissan GT-R",
@@ -137,7 +137,7 @@ const Product: React.FC = () => {
       transmission: "Manual",
       capacity: "4 People",
       price: 150,
-      favoriteIcon: "/Images/heart.png"
+      // favoriteIcon: "/Images/heart.png"
     },
     {
       name: "Mercedes-Benz E-Class",
@@ -147,7 +147,7 @@ const Product: React.FC = () => {
       transmission: "Manual",
       capacity: "2 People",
       price: 130,
-      favoriteIcon: "/Images/heart.png"
+      // favoriteIcon: "/Images/heart.png"
     }
   ];
 
